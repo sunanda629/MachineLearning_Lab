@@ -12,7 +12,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
 
-# Load our data file.
+# Load data file
 orders= pd.read_csv('~/Desktop/Machine_Learning_Lab_class/data/Orders.csv')
 returns= pd.read_csv('~/Desktop/Machine_Learning_Lab_class/data/Returns.csv')
 orders.isnull()
